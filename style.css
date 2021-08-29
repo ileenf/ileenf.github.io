@@ -161,6 +161,7 @@ ul {
   font-family: 'Courier New', monospace;
   height: 200px;
   text-align: left;
+  display: block;
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */
