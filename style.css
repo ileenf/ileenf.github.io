@@ -4,13 +4,11 @@
 }
 
 .topnav a {
-  float: right;
   color: gray;
-  text-align: center;
   font-family: 'Courier New', monospace;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .topnav a:hover {
@@ -19,8 +17,11 @@
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 20;
+  padding: 20;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
 }
 
 .name {
@@ -95,4 +96,8 @@ ul {
   padding-left: 20px;
   text-decoration: none;
   font-family: 'Courier New', monospace;
+}
+
+.resume:hover {
+  color: gray;
 }
