@@ -17,8 +17,7 @@
 
 ul {
   list-style-type: none;
-  margin: 20;
-  padding: 20;
+  margin: 0px;
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
@@ -100,4 +99,12 @@ ul {
 
 .resume:hover {
   color: gray;
+}
+
+.avocado {
+  float: left;
+  position: relative;
+  margin: 10px 15px 15px 10px;
+  height: 45px;
+  width: auto;
 }
