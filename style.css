@@ -9,7 +9,7 @@
 .topnav a {
   color: gray;
   font-family: 'Courier New', monospace;
-  padding: 14px 16px;
+  padding: 20px 25px;
   text-decoration: none;
   font-size: 18px;
 }
@@ -31,7 +31,7 @@ ul {
   font-size: 50px;
   text-align: center;
   font-family: 'Courier New', monospace;
-  padding-top: 30px;
+  padding-top: 50px;
 
 }
 
@@ -147,18 +147,20 @@ ul {
 }
 
 /* Clear floats after the columns */
-.row:after {
+/* .row:after {
   content: "";
   display: table;
   clear: both;
-}
+} */
 
 /* Style the counter cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 16px;
-  text-align: center;
-  background-color: #f1f1f1;
+  padding: 18px;
+  background-color: rgba(135,169,34,0.5);
+  font-family: 'Courier New', monospace;
+  height: 200px;
+  text-align: left;
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */
@@ -168,4 +170,29 @@ ul {
     display: block;
     margin-bottom: 20px;
   }
+}
+
+.card-img {
+  width: 50px;
+  height: auto;
+  float: left;
+  padding-right: 10px;
+}
+
+.card-img-fb {
+  margin-top: -10px;
+}
+
+.card-img-kwk {
+  margin-top: -20px;
+}
+
+.card-img-google {
+  width: 30px;
+  height: auto;
+  margin-top: -10px;
+}
+
+.duration {
+  text-decoration: underline;
 }
