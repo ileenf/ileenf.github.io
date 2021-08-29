@@ -1,5 +1,5 @@
 ### Personal Website
-Personal website to display my experiences and more about me. Coded using vanilla HTML/CSS. 
+Personal website to display my experiences and more about me. Coded from scratch husing vanilla HTML/CSS. 
 
 Includes:
 - [x] about
