@@ -41,7 +41,7 @@ ul {
 .contact{
   opacity: 0.7;
   text-align: center;
-  text-decoration: none;
+  padding: 10px;
 }
 
 .fa:hover {
@@ -57,6 +57,8 @@ ul {
   padding-bottom: 20px;
   padding-right: 20px;
   padding-left: 20px;
+  margin: 10px;
+  text-decoration: none;
 }
 
 /* Github */
@@ -68,7 +70,7 @@ ul {
   padding-bottom: 20px;
   padding-right: 20px;
   padding-left: 20px;
-  margin: 30px;
+  text-decoration: none;
 }
 
 .fa-envelope{
@@ -79,4 +81,18 @@ ul {
   padding-bottom: 20px;
   padding-right: 20px;
   padding-left: 20px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.resume {
+  color: black;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-decoration: none;
+  font-family: 'Courier New', monospace;
 }
