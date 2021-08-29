@@ -1,6 +1,9 @@
 .topnav {
   background-color: white;
   overflow: hidden;
+  position: fixed;
+  top: 0; 
+  width: 100%;
 }
 
 .topnav a {
@@ -12,7 +15,7 @@
 }
 
 .topnav a:hover {
-  color: black;
+  color: rgb(135,169,34);
 }
 
 ul {
@@ -28,6 +31,7 @@ ul {
   font-size: 50px;
   text-align: center;
   font-family: 'Courier New', monospace;
+  padding-top: 30px;
 
 }
 
@@ -45,7 +49,7 @@ ul {
 }
 
 .fa:hover {
-  color: gray;
+  color: rgb(135,169,34);
 }
 
 /* Linkedin */
@@ -98,7 +102,7 @@ ul {
 }
 
 .resume:hover {
-  color: gray;
+  color: rgb(135,169,34);
 }
 
 .avocado {
@@ -108,4 +112,60 @@ ul {
   height: 45px;
   width: auto;
   display: block;
+}
+
+.about-info {
+  font-family: 'Courier New', monospace;
+  padding-left: 100px;
+  padding-right: 100px;
+  line-height: 150%;
+}
+
+.section-header {
+  color: rgb(135,169,34);
+  opacity: 0.7;
+  font-size: 30px;
+  font-family: 'Courier New', monospace;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
 }
