@@ -112,6 +112,7 @@ ul {
   height: 45px;
   width: auto;
   display: block;
+
 }
 
 .about-info {
@@ -128,6 +129,7 @@ ul {
   font-family: 'Courier New', monospace;
   padding-left: 100px;
   padding-right: 100px;
+  padding-top: 15px;
 }
 
 /* Float four columns side by side */
@@ -161,7 +163,6 @@ ul {
   font-family: 'Courier New', monospace;
   height: 200px;
   text-align: left;
-  display: block;
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */
@@ -194,6 +195,32 @@ ul {
   margin-top: -10px;
 }
 
+.card-title {
+  font-size: 17px;
+}
+
 .duration {
   text-decoration: underline;
+}
+
+.column-skills {
+  float: left;
+  width: 33.33%;
+  padding: 0 10px;
+  font-family: 'Courier New', monospace;
+  line-height: 50%;
+}
+
+.row-skills {
+  display: flex;
+  flex-direction: row;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* Clear floats after the columns */
+.row-skills:after {
+  content: "";
+  display: table;
+  clear: both;
 }
