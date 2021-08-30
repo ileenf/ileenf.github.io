@@ -62,7 +62,11 @@ ul {
   padding-right: 20px;
   padding-left: 20px;
   margin: 10px;
+}
+
+.fa {
   text-decoration: none;
+  color: black;
 }
 
 /* Github */
@@ -74,7 +78,6 @@ ul {
   padding-bottom: 20px;
   padding-right: 20px;
   padding-left: 20px;
-  text-decoration: none;
 }
 
 .fa-envelope{
@@ -86,7 +89,6 @@ ul {
   padding-right: 20px;
   padding-left: 20px;
   margin: 10px;
-  text-decoration: none;
 }
 
 .resume {
@@ -97,7 +99,6 @@ ul {
   padding-bottom: 20px;
   padding-right: 20px;
   padding-left: 20px;
-  text-decoration: none;
   font-family: 'Courier New', monospace;
 }
 
@@ -223,4 +224,20 @@ ul {
   content: "";
   display: table;
   clear: both;
+}
+
+.teaching-list {
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+.teaching-title {
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+.teaching-title:hover {
+  color: rgb(135,169,34);
 }
