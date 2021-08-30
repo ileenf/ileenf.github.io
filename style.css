@@ -100,6 +100,7 @@ ul {
   padding-right: 20px;
   padding-left: 20px;
   font-family: 'Courier New', monospace;
+  text-decoration: none;
 }
 
 .resume:hover {
@@ -118,9 +119,14 @@ ul {
 
 .about-info {
   font-family: 'Courier New', monospace;
+  padding: 0 10px;
   padding-left: 100px;
   padding-right: 100px;
   line-height: 150%;
+}
+
+.experience {
+  padding: 0 10px;
 }
 
 .section-header {
