@@ -247,3 +247,13 @@ ul {
 .teaching-title:hover {
   color: rgb(135,169,34);
 }
+
+footer {
+  background-color: rgba(135,169,34, 0.7);
+  overflow-x: hidden;
+  overflow-y: hidden; 
+  text-align: center;
+  line-height: 50%;
+  font-family: 'Courier New', monospace;
+  padding: 20px;
+}
