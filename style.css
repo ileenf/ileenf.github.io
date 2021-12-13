@@ -150,9 +150,10 @@ ul {
 .row {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   padding-left: 100px;
   padding-right: 100px;
+  padding-top: 25px;
 }
 
 /* Clear floats after the columns */
