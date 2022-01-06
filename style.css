@@ -8,7 +8,7 @@
 
 .topnav a {
   color: gray;
-  font-family: 'Courier New', monospace;
+  font-family: 'Courier Prime', 'Courier New', monospace;
   padding: 20px 25px;
   text-decoration: none;
   font-size: 18px;
@@ -30,7 +30,7 @@ ul {
   color: black;
   font-size: 50px;
   text-align: center;
-  font-family: 'Courier New', monospace;
+  font-family: 'Courier Prime', 'Courier New', monospace;
   padding-top: 50px;
 
 }
@@ -99,7 +99,7 @@ ul {
   padding-bottom: 20px;
   padding-right: 20px;
   padding-left: 20px;
-  font-family: 'Courier New', monospace;
+  font-family: 'Courier Prime', 'Courier New', monospace;
   text-decoration: none;
 }
 
@@ -118,7 +118,7 @@ ul {
 }
 
 .about-info {
-  font-family: 'Courier New', monospace;
+  font-family: 'Courier Prime', 'Courier New', monospace;
   padding: 0 10px;
   padding-left: 100px;
   padding-right: 100px;
@@ -133,7 +133,7 @@ ul {
   color: rgb(135,169,34);
   opacity: 0.7;
   font-size: 30px;
-  font-family: 'Courier New', monospace;
+  font-family: 'Courier Prime', 'Courier New', monospace;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 15px;
@@ -168,7 +168,7 @@ ul {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 18px;
   background-color: rgba(135,169,34,0.5);
-  font-family: 'Courier New', monospace;
+  font-family: 'Courier Prime', 'Courier New', monospace;
   height: 200px;
   text-align: left;
 }
@@ -215,7 +215,7 @@ ul {
   float: left;
   width: 33.33%;
   padding: 0 10px;
-  font-family: 'Courier New', monospace;
+  font-family: 'Courier Prime', 'Courier New', monospace;
   line-height: 50%;
 }
 
@@ -255,6 +255,6 @@ footer {
   overflow-y: hidden; 
   text-align: center;
   line-height: 50%;
-  font-family: 'Courier New', monospace;
+  font-family: 'Courier Prime', 'Courier New', monospace;
   padding: 20px;
 }
