@@ -51,7 +51,6 @@
   color: #668019;
 }
 
-/* Linkedin */
 .fa-linkedin {
   color: black;
   border: 2px solid black;
@@ -68,7 +67,6 @@
   color: black;
 }
 
-/* Github */
 .fa-github{
   color: black;
   border: 2px solid black;
@@ -140,8 +138,8 @@
 
 /* Float four columns side by side */
 .column {
-  float: left;
   width: 25%;
+  float: left;
   padding: 0 10px;
 }
 
@@ -164,11 +162,11 @@
 
 /* Style the counter cards */
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 18px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* adds the "card" effect */
   background-color: rgba(135,169,34,0.5);
   font-family: 'Courier Prime', 'Courier New', monospace;
   height: 200px;
+  padding: 18px;
   text-align: left;
 }
 
