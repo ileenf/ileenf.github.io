@@ -7,7 +7,7 @@
 }
 
 .topnav a {
-  color: gray;
+  color: #595959;
   font-family: 'Courier Prime', 'Courier New', monospace;
   padding: 20px 25px;
   text-decoration: none;
@@ -18,7 +18,7 @@
   color: rgb(135,169,34);
 }
 
-ul {
+.topnav-styling {
   list-style-type: none;
   margin: 0px;
   display: flex;
