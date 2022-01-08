@@ -1,7 +1,6 @@
 .topnav {
   background-color: white;
   overflow: hidden;
-  position: fixed;
   top: 0; 
   width: 100%;
 }
@@ -136,7 +135,7 @@
   font-family: 'Courier Prime', 'Courier New', monospace;
   padding-left: 100px;
   padding-right: 100px;
-  padding-top: 15px;
+  padding-top: 25px;
 }
 
 /* Float four columns side by side */
@@ -208,7 +207,7 @@
 }
 
 .duration {
-  text-decoration: underline;
+  font-style: italic;
 }
 
 .column-skills {
