@@ -255,3 +255,33 @@ footer {
   font-family: 'Courier Prime', 'Courier New', monospace;
   padding: 20px;
 }
+
+.project-img {
+  transition: .75s ease;
+  opacity: 90%;
+
+}
+
+.project-img img {
+  border-radius: 20px;
+  height: 150px;
+  width: auto;
+}
+
+.project-img:hover {
+  background-image: "rate_my_class_icon.png";
+  opacity: 70%;
+  
+}
+
+.project-desc {
+  font-family: 'Courier Prime', 'Courier New', monospace;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.project-desc p {
+  padding-left: 50px;
+}
