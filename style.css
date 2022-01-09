@@ -238,7 +238,6 @@
 .teaching-title {
   font-weight: bold;
   font-size: 18px;
-  text-decoration: none;
   color: black;
 }
 
@@ -269,7 +268,6 @@ footer {
 }
 
 .project-img:hover {
-  background-image: "rate_my_class_icon.png";
   opacity: 70%;
   
 }
@@ -284,4 +282,18 @@ footer {
 
 .project-desc p {
   padding-left: 50px;
+}
+
+.project-link {
+  color: black;
+}
+.project-link:hover {
+  color: #668019;
+}
+
+.project-title {
+  display: flex;
+  justify-content: center;
+  margin-top: -15px;
+  font-size: 110%;
 }
