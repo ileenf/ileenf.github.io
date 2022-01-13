@@ -116,7 +116,6 @@
 
 .about-info {
   font-family: 'Courier Prime', 'Courier New', monospace;
-  padding: 0 10px;
   padding-left: 100px;
   padding-right: 100px;
   line-height: 150%;
@@ -141,6 +140,12 @@
   width: 25%;
   float: left;
   padding: 0 10px;
+}
+
+.column2 {
+  width: 23%;
+  float: left; 
+  padding-top: 5px
 }
 
 /* Remove extra left and right margins, due to padding in columns */
@@ -171,12 +176,24 @@
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
+@media screen and (max-width: 1024px) {
+   .row {
+    display: flex;
+    flex-direction: column;
   }
+  .column {
+    width: 15em;
+    padding-bottom: 2em;
+  } 
+  .project-desc {
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
+
+@media screen and (max-width: 1070px) {
+  
 }
 
 .card-img {
@@ -296,4 +313,8 @@ footer {
   justify-content: center;
   margin-top: -15px;
   font-size: 110%;
+}
+
+html, body{
+  overflow-x: hidden;
 }
