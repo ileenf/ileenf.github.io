@@ -133,6 +133,7 @@
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 /* Float four columns side by side */
@@ -145,15 +146,14 @@
 .column2 {
   width: 25%;
   float: left; 
-  padding-top: 5px
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 
 /* Remove extra left and right margins, due to padding in columns */
 .row {
-  /* justify-content: space-evenly; */
   padding-left: 100px;
   padding-right: 100px;
-  padding-top: 25px;
 }
 
 /* Clear floats after the columns */
@@ -221,6 +221,8 @@
 
 .card-title {
   font-size: 17px;
+  display: flex;
+  align-items: center;
 }
 
 .duration {
