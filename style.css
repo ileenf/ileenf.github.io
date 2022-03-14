@@ -283,7 +283,7 @@ footer {
 .project-img img {
   border-radius: 20px;
   height: 150px;
-  width: auto;
+  width: 150px;
 }
 
 .project-img:hover {
@@ -297,6 +297,7 @@ footer {
   align-items: flex-start;
   padding-left: 100px;
   padding-right: 100px;
+  padding-top: 25px;
 }
 
 .project-desc p {
@@ -317,7 +318,7 @@ footer {
 }
 
 .tech-desc {
-  padding-top: 3em
+  padding-top: 3em;
 }
 html, body{
   overflow-x: hidden;
