@@ -61,7 +61,7 @@
             <div class="column">
               <div class="card">
                 <p class = "card-title"><img src = "fb-logo.png" class = "card-img card-img-fb" alt = "facebook logo">
-                  <strong>facebook</strong></p>
+                  <strong>facebook/meta</strong></p>
                   <p class = "duration">summer 2022</p>
                   <p>swe intern</p>
                   <p class = "duration">summer 2021</p>
@@ -110,9 +110,13 @@
           </div>
     </section>
 
+<!--     projects  -->
     <section id="projects">
       <h2 class="section-header">💡 projects</h2>
+      <p class="project-desc" style="margin-top:-50px">(hover over images for project source code)</p>
       <div class="project-desc">
+
+<!--         rate my class -->
         <a href="https://github.com/ileenf/Rate-My-Class" class="project-img" title="Rate My Class icon" target="_blank">
           <img src="rate_my_class_icon.png" alt="Rate My Class icon">
         </a>
@@ -126,7 +130,8 @@
         </p>
         <p class="tech-desc"><strong>tech:</strong> objective-c, xcode, parse, nlp, rest api</p>
       </div>
-
+      
+<!--       search engine -->
       <div class="project-desc">
         <a class="project-img" title="Search icon" target="_blank">
           <img src="search.png" alt="Search icon">
@@ -134,14 +139,31 @@
         <p> 
           <strong class="project-title">search engine</strong>
           <br>
-          a search engine coded from scratch capable of handling 10,000+ documents/web pages in uci ics domains,   under harsh operational constraints and having a query response time under 300ms.
+          a search engine coded from scratch capable of handling 10,000+ documents/web pages in uci ics domains,   under harsh operational constraints and having a query response time under 300ms. documents include those from the uci ics, stats, informatics, and related domains.
           <br>
           <br>
-          parse html/json, design efficient data structures, ensure fast file access, and balance memory usage. implement graphical user interface (gui) prompt.
+          parse html/json, design efficient data structures to index documents, ensure fast file access, and balance memory usage. implement partial indexes to build indexes in memory periodically and merge after. rank documents using tf-idf, 2 grams, weighting of important text, champion lists. implement graphical user interface (gui) prompt.
         </p>
         <p class="tech-desc"><strong>tech:</strong> python, flask, information retrieval</p>
       </div>
 
+<!--       zot habits  -->
+      <div class="project-desc">
+        <a href="https://github.com/ileenf/CS147-Zot-Habits" class="project-img" title="ESP32 icon" target="_blank">
+          <img src="esp32.png" alt="ESP32 icon">
+        </a>
+        <p> 
+          <strong class="project-title">zot habits</strong>
+          <br>
+          an iot (internet of things) software system that utilizes various sensors (distance, motion, photoresistor, temperature) to monitor/promote healthy lifestyle habits such as working with sufficient light, shorter sitting durations, and frequent breaks.
+          <br>
+          <br>
+          leverages real time sensing and a connection to an aws web server to store and manipulate user data. includes a flask interface that aggregates statistics, plots graphs of the raw sensor data using matplotlib, and provides healthier lifestyle recommendations
+        </p>
+        <p class="tech-desc"><strong>tech:</strong> arduino, c++, aws, flask, python, matplotlib, iot  </p>
+      </div>
+
+<!--       sleep tracker -->
       <div class="project-desc">
         <a class="project-img" title="Sleep Tracker icon" target="_blank">
           <img src="sleep-tracker.png" alt="Sleep Tracker icon">
@@ -157,6 +179,7 @@
         <p class="tech-desc"><strong>tech:</strong> ionic, typescript, angular, capacitor</p>
       </div>
 
+<!--       minesweeper -->
       <div class="project-desc">
         <a href="https://github.com/ileenf/Minesweeper" class="project-img" title="Minesweeper icon" target="_blank">
           <img src="minesweeper.png" alt="Minesweeper icon">
@@ -173,9 +196,22 @@
       </div>
     </section>
 
+<!--     teaching  -->
     <section id = "teaching">
       <h2 class = "section-header" >🍎 teaching</h2>
       <div class = "about-info">
+
+         <!--         learning assistant  -->
+         <a href="https://www.ics.uci.edu/~mikes/" target = "_blank" class = "teaching-title">data structures learning assistant</a> 
+        <div class = "teaching-list">
+          <ul>
+            <li>spring 2022</li>
+            <li>sdvise professor on lesson plans, homework/exam questions, and  increasing student outcomes</li>
+            <li>Hold weekly office hours, exam review sessions, and assist lectures with interactive activities</li>
+          </ul>
+        </div>
+
+        <!--         lab tutor -->
         <a href="https://tutors.ics.uci.edu/index.php/becoming-a-tutor" target = "_blank" class = "teaching-title">lab tutor at uci</a> 
         <div class = "teaching-list">
           <ul>
@@ -186,6 +222,7 @@
           </ul>
         </div>
 
+<!--         superposition  -->
         <a href="https://sites.google.com/uci.edu/superpositionuci" target = "_blank" class = "teaching-title">superposition at uci</a> 
         <a href="https://www.instagram.com/superpositionuci/" target = "_blank" class="fa fa-instagram" title = "Instagram icon"></a>
         <div class = "teaching-list">
@@ -195,6 +232,7 @@
           </ul>
         </div>
 
+<!--         instructor assistant  -->
         <a href="https://www.kodewithklossy.com" target = "_blank" class = "teaching-title">kode with klossy</a>
         <div class = "teaching-list">
           <ul>
@@ -203,6 +241,7 @@
           </ul>
         </div>
 
+<!--         code in place  -->
         <a href="https://codeinplace.stanford.edu" target = "_blank" class = "teaching-title">stanford code in place</a>
         <div class = "teaching-list">
           <ul>
@@ -211,6 +250,7 @@
           </ul>
         </div>
 
+<!--         irvington cti -->
         <a href="https://irvingtoncti.org" target = "_blank" class = "teaching-title">irvington coding tomorrow initiative</a>
         <div class = "teaching-list">
           <ul>
@@ -222,6 +262,7 @@
       </div>
     </section>
 
+<!--     skills  -->
     <section id="skills">
       <h2 class="section-header">💻 skills</h2>
         <div class="row-skills">
@@ -229,26 +270,32 @@
             <h3 style = "font-size: 20px; line-height: 100%; padding:10px 0px;"><strong>proficient</strong></h3>
             <p>python</p>
             <p>c++</p>
-            <p>objective c</p>
-            <p>postgresql</p> 
+            <p>sql</p> 
+            <p>nosql</p>
             <p>git</p>
-            <p>xcode</p> 
-            <p>mips</p> 
+            <p>objective c</p>
+            <p>ios</p>
+            <p>javascript</p>
+            <p>typescript</p> 
           </div>
           <div class="column-skills col-md-4 col-sm-10" style="border: 5px dashed rgba(135,169,34, 0.5); background-color: rgba(135,169,34, 0.2);">
             <h3 style = "font-size: 20px; line-height: 100%; padding:10px 0px;"><strong>intermediate</strong></h3>
             <p>angular</p>
             <p>ionic</p>
-            <p>javascript</p>
-            <p>typescript</p>
+            <p>flask</p>
+            <p>mongodb</p>
+            <p>aws</p>
+            <p>mips</p>
             <p>html</p>
             <p>css</p>
           </div>
           <div class="column-skills col-md-4 col-sm-10" style="border: 5px solid rgba(135,169,34, 0.2); background-color: rgba(135,169,34, 0.1);">
             <h3 style = "font-size: 20px; line-height: 100%; padding:10px 0px;"><strong>familiar</strong></h3>
+            <p>matplotlib</p>
+            <p>numpy</p>
             <p>java</p>
             <p>express</p>
-            <p>flask</p>
+            <p>pytorch</p>
             <p>graphql</p>
             <p>react</p>
             <p>vim</p>
